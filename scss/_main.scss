@@ -1,0 +1,115 @@
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Global styling */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('/images/pattern-background-mobile.svg')
+   no-repeat  left/cover;
+  font-family: 'ubuntu', 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+img {
+  height: auto;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+// main
+#main {
+  margin: 3.125rem auto;
+  text-align: center;
+  border-radius: 2.1875rem;
+  width: 375px;
+  background-color: white;
+}
+
+.hero-img {
+  width: 375px;
+  border-top-left-radius: 2.1875rem;
+  border-top-right-radius: 2.1875rem;
+}
+
+#order-text {
+  width: 365px;
+  margin: auto;
+  padding: 1.875rem;
+}
+
+#order-text .p-text {
+  margin: 0.9375rem auto;
+  color: $desaturated-blue;
+}
+
+#order-text .price {
+  margin: 1.5625rem auto;
+  display: flex;
+  justify-content: space-around;
+  padding: auto;
+  background-color: $very-pale-blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#order-text .price .annual-plan {
+  font-weight: bold;
+}
+
+#order-text .price .dollar {
+  color: $desaturated-blue;
+}
+
+#order-text .price a.change{
+  margin-top: 0.625rem;
+  margin-left: 1.875rem;
+  font-weight: bold;
+}
+
+#order-text .price a.change:hover {
+  text-decoration: none;
+}
+
+#order-text .payment-btn {
+  background-color: $bright-blue;
+  border-radius: 0.625rem;
+  margin: 0.625rem auto;
+  padding: 0.9375rem;
+  font-weight: bold;
+}
+
+#order-text .payment-btn:hover {
+  background-color: $desaturated-blue;
+}
+
+#order-text a.cancel {
+  font-weight: bold;
+  text-decoration: none;
+  color: $desaturated-blue;
+  display: block;
+  margin: 0.3125rem;
+}
+
+#order-text a.cancel:hover {
+  color: black;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

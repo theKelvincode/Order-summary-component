@@ -1,0 +1,207 @@
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Global styling */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/images/pattern-background-mobile.svg") no-repeat left/cover;
+  font-family: 'ubuntu', 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+img {
+  height: auto;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+#main {
+  margin: 3.125rem auto;
+  text-align: center;
+  border-radius: 2.1875rem;
+  width: 375px;
+  background-color: white;
+}
+
+.hero-img {
+  width: 375px;
+  border-top-left-radius: 2.1875rem;
+  border-top-right-radius: 2.1875rem;
+}
+
+#order-text {
+  width: 365px;
+  margin: auto;
+  padding: 1.875rem;
+}
+
+#order-text .p-text {
+  margin: 0.9375rem auto;
+  color: #7280a7;
+}
+
+#order-text .price {
+  margin: 1.5625rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: auto;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#order-text .price .annual-plan {
+  font-weight: bold;
+}
+
+#order-text .price .dollar {
+  color: #7280a7;
+}
+
+#order-text .price a.change {
+  margin-top: 0.625rem;
+  margin-left: 1.875rem;
+  font-weight: bold;
+}
+
+#order-text .price a.change:hover {
+  text-decoration: none;
+}
+
+#order-text .payment-btn {
+  background-color: #3829e0;
+  border-radius: 0.625rem;
+  margin: 0.625rem auto;
+  padding: 0.9375rem;
+  font-weight: bold;
+}
+
+#order-text .payment-btn:hover {
+  background-color: #7280a7;
+}
+
+#order-text a.cancel {
+  font-weight: bold;
+  text-decoration: none;
+  color: #7280a7;
+  display: block;
+  margin: 0.3125rem;
+}
+
+#order-text a.cancel:hover {
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background: url("/images/pattern-background-desktop.svg") no-repeat center/cover;
+    font-family: 'ubuntu', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+  }
+  img {
+    height: auto;
+  }
+  button {
+    border: none;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  #main {
+    margin: 3.125rem auto;
+    text-align: center;
+    border-radius: 2.1875rem;
+    width: 375px;
+    background-color: white;
+  }
+  .hero-img {
+    width: 375px;
+    border-top-left-radius: 2.1875rem;
+    border-top-right-radius: 2.1875rem;
+  }
+  #order-text {
+    width: 365px;
+    margin: auto;
+    padding: 1.875rem;
+  }
+  #order-text .p-text {
+    margin: 0.9375rem auto;
+    color: #7280a7;
+  }
+  #order-text .price {
+    margin: 1.5625rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: auto;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #order-text .price .annual-plan {
+    font-weight: bold;
+  }
+  #order-text .price .dollar {
+    color: #7280a7;
+  }
+  #order-text .price a.change {
+    margin-top: 0.625rem;
+    margin-left: 1.875rem;
+    font-weight: bold;
+  }
+  #order-text .price a.change:hover {
+    text-decoration: none;
+  }
+  #order-text .payment-btn {
+    background-color: #3829e0;
+    border-radius: 0.625rem;
+    margin: 0.625rem auto;
+    padding: 0.9375rem;
+    font-weight: bold;
+  }
+  #order-text .payment-btn:hover {
+    background-color: #7280a7;
+  }
+  #order-text a.cancel {
+    font-weight: bold;
+    text-decoration: none;
+    color: #7280a7;
+    display: block;
+    margin: 0.3125rem;
+  }
+  #order-text a.cancel:hover {
+    color: black;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
