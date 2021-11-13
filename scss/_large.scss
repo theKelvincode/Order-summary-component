@@ -1,8 +1,9 @@
 @media only screen and (min-width:992px) {
 
 body {
-  background: url('/images/pattern-background-desktop.svg')
-  no-repeat center/cover;
+  background-image: url('/images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: $pale-blue;
   font-family: 'ubuntu', 'Times New Roman', Times, serif;
   font-size: 1rem;
 }
